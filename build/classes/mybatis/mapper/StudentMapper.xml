@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huangpan.mapper.StudentMapper">
+	<!-- public Student getStudentById(int id); -->
+	<select id="getStudents"  resultType="com.huangpan.pojo.Student">
+			select * from t_student 
+	</select>
+	 
+</mapper>

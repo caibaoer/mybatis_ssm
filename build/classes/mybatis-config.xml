@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+	
+		
+	<settings>  
+			            <!-- 延迟加载的全局开关。当开启时，所有关联对象都会延迟加载。 -->
+			<setting name="lazyLoadingEnabled" value="true"/>
+		              	<!-- 打印查询语句 -->
+			<setting name="logImpl" value="STDOUT_LOGGING" />
+			          <!-- 描述 : cacheEnabled  允许值: 对在此配置文件下的所有cache 进行全局性开/关设置。默认值 (true/false): true  -->
+			<setting name="cacheEnabled" value="true"/>			
+	</settings>	
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+</configuration>
